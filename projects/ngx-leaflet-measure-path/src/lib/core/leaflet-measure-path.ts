@@ -23,6 +23,12 @@ declare module 'leaflet' {
 		showMeasurements?: boolean;
 	}
 
+	interface Layer {
+		showMeasurements();
+		hideMeasurements();
+		updateMeasurements();
+	}
+
 	interface Polygon {
 		showMeasurements();
 		hideMeasurements();
