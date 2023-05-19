@@ -1,7 +1,7 @@
 {
 	"name": "@dvina/ngx-leaflet-measure-path",
 	"description": "Angular directives for the Leaflet Measure Path plugin",
-	"version": "15.0.3",
+	"version": "16.0.0",
 	"author": "Kant Yazılım A.Ş.",
 	"license": "MIT",
 	"repository": {
@@ -9,12 +9,12 @@
 		"url": "https://github.com/dvina-ai/ngx-leaflet-measure-path.git"
 	},
 	"peerDependencies": {
-		"@angular/common": "15",
-		"@angular/core": "15",
+		"@angular/common": "16",
+		"@angular/core": "16",
 		"leaflet": "1"
 	},
 	"dependencies": {
 		"leaflet-measure-path": "^1.5",
-		"tslib": "^2.3.0"
+		"tslib": "^2.4.0"
 	}
 }
